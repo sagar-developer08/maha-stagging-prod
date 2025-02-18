@@ -1,0 +1,22 @@
+.ExpBucketList3232 {
+  .pd43 {
+    padding: 12px 24px;
+  }
+  .bokNow {
+    margin-inline-end: 16px;
+  }
+  .wrapper {
+    height: 640px;
+    max-width: 610px;
+    width: 100%;
+    @media (max-width: 560px) {
+      height: 280px;
+    }
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      border-radius: 24px;
+    }
+  }
+}

@@ -1,0 +1,134 @@
+.ProductList3939Kdk3 {
+  position: relative;
+  overflow-x: hidden;
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+  .iconsSI {
+    margin-inline-end: 12px;
+  }
+  .sortFilter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .borddr {
+    border-radius: 5px;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  .BtnSearch {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  .sortings {
+    select {
+      border: none;
+      outline: none;
+    }
+  }
+
+  .CloseGBar {
+    display: flex;
+    justify-content: space-between;
+  }
+  .Closefilter {
+    color: var(--themePrimary);
+    cursor: pointer;
+  }
+  .filtersList {
+    top: 240px;
+    left: -100%;
+    position: absolute;
+    background-color: #fff;
+    height: 50vh;
+    width: 320px;
+    padding: 20px;
+    transition: ease-in-out 0.3s;
+    animation: slide-out 1000ms;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    @media (max-width: 580px) {
+      width: 280px;
+    }
+  }
+
+  .filterListActive {
+    left: 0;
+    transition: ease-in-out 0.3s;
+    animation: slide-in 1000ms;
+  }
+
+  .filtersListAr {
+    top: 240px;
+    right: -100%;
+    position: absolute;
+    background-color: #fff;
+    height: 50vh;
+    width: 320px;
+    padding: 20px;
+    transition: ease-in-out 0.3s;
+    display: none;
+    animation: slide-outAr 1000ms;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    @media (max-width: 580px) {
+      width: 280px;
+    }
+  }
+
+  .filterListActiveAr {
+    display: block;
+
+    right: 0;
+    transition: ease-in-out 0.3s;
+    animation: slide-inAr 1000ms;
+  }
+  .filterTitle {
+    font-weight: 600;
+    font-size: 18px;
+  }
+  .guCustom {
+    --bs-gutter-y: 40px;
+    --bs-gutter-x: 40px;
+    @media (max-width: 580px) {
+      --bs-gutter-y: 20px;
+      --bs-gutter-x: 20px;
+    }
+  }
+
+  @keyframes slide-in {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0%);
+    }
+  }
+  @keyframes slide-out {
+    from {
+      transform: translateX(0%);
+    }
+    to {
+      transform: translateX(-200%);
+    }
+  }
+  @keyframes slide-inAr {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(0%);
+    }
+  }
+  @keyframes slide-outAr {
+    from {
+      transform: translateX(0%);
+    }
+    to {
+      transform: translateX(200%);
+    }
+  }
+}

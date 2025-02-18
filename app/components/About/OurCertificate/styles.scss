@@ -1,0 +1,44 @@
+.AboutCertificate3223 {
+  .certifcates {
+    display: flex;
+    justify-content: flex-end;
+    gap: 40px;
+    flex-wrap: wrap;
+    @media (max-width: 580px) {
+      justify-content: flex-start;
+    }
+
+    @media (max-width: 580px) {
+      gap: 15px;
+    }
+
+    img {
+      width: 100px;
+      object-fit: contain;
+      cursor: pointer;
+      border: 1px solid rgba(0, 0, 0, 20%);
+    }
+  }
+  .desktop3 {
+    @media (max-width: 580px) {
+      display: none;
+    }
+  }
+  .mobilet {
+    display: none;
+    @media (max-width: 580px) {
+      display: block;
+      margin-top: 25px;
+    }
+    .imgb {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      padding-inline-end: 10px;
+      height: 100px;
+      object-fit: contain;
+      cursor: pointer;
+    }
+  }
+}

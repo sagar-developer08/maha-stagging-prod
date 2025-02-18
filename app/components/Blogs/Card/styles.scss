@@ -1,0 +1,43 @@
+.dkj30329K {
+  margin-inline-end: 40px;
+}
+.BlogsList3CardHomepahg32 {
+  @media (max-width: 560px) {
+    margin-inline-end: 0;
+  }
+  .imageWrapper {
+    height: 300px;
+    img {
+      height: 100%;
+      width: 100%;
+      border-radius: 16px;
+      object-fit: cover;
+      object-position: center;
+    }
+  }
+  .sec-title {
+    min-height: 100px;
+  }
+
+  .blogType {
+    margin-top: 24px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 16px;
+    .category {
+      border-radius: 50px;
+      padding: 4px 12px;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 21px;
+      background-color: #eeeeee;
+      width: max-content;
+    }
+    .readTime {
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 21px;
+    }
+  }
+}

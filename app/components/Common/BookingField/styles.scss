@@ -1,0 +1,147 @@
+.bookingFieldk321 {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 200px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  @media (max-width: 778px) {
+    justify-content: flex-start;
+    flex-direction: column;
+    border-radius: 16px;
+    gap: 12px;
+  }
+  @media (max-width: 580px) {
+    position: relative;
+    margin-top: 30px;
+    animation: slideUp 0.3s ease-in-out;
+  }
+  .PackagesSelect {
+    outline: none;
+    border: none;
+    width: 150px;
+  }
+  .guest_amt::-webkit-outer-spin-button,
+  .guest_amt::-webkit-inner-spin-button {
+    appearance: none;
+    -webkit-appearance: none;
+  }
+  .guest_amt {
+    width: 30px;
+    outline: 0;
+    border: 0;
+    appearance: textfield;
+    -moz-appearance: textfield;
+  }
+  .CloseIon {
+    display: none;
+    @media (max-width: 580px) {
+      display: block;
+    }
+    .CloseIocnd {
+      position: absolute;
+      right: 20px;
+      top: 20px;
+      color: tomato;
+    }
+  }
+
+  // dropDonw
+  .IconsFIll {
+    color: var(--themePrimary);
+  }
+
+  .serachBtn {
+    display: none;
+    cursor: pointer;
+    @media (max-width: 778px) {
+      display: block;
+      background-color: var(--themePrimary);
+      border-radius: 16px;
+      color: #fff;
+      outline: none;
+      border: none;
+      padding: 12px;
+      text-align: center;
+      svg {
+        margin-inline-end: 12px;
+      }
+    }
+  }
+  .Icons {
+    background-color: rgb(254, 247, 244);
+    width: max-content;
+    border-radius: 100%;
+    padding: 15px 15px;
+
+    img {
+      width: 20px;
+      height: auto;
+    }
+  }
+  .searchIcon {
+    background-color: var(--themePrimary);
+    border-radius: 100%;
+    color: #fff;
+    padding: 15px;
+    width: max-content;
+    cursor: pointer;
+    @media (max-width: 778px) {
+      display: none;
+    }
+  }
+  .itemBox {
+    color: #000;
+    display: flex;
+    gap: 8px;
+    .details {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      cursor: pointer;
+      .field {
+        color: #05073c;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 21px;
+      }
+      .value {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        cursor: pointer;
+      }
+    }
+  }
+}
+@keyframes slideUp {
+  from {
+    top: 80px;
+    opacity: 0.2;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+.serachBtn32d {
+  display: none;
+  cursor: pointer;
+  @media (max-width: 778px) {
+    display: block;
+    background-color: var(--themePrimary);
+    border-radius: 16px;
+    color: #fff;
+    outline: none;
+    border: none;
+    padding: 12px;
+    text-align: center;
+    width: 100%;
+    margin-top: 35px;
+    svg {
+      margin-inline-end: 12px;
+    }
+  }
+}

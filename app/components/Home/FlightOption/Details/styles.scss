@@ -1,0 +1,50 @@
+.PackCardDetails93k {
+  margin-top: 40px;
+  animation-name: show;
+  animation-duration: 0.3s;
+  animation-timing-function: ease-in-out;
+  position: relative;
+
+  .cardDetails {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  .details {
+    flex: 60%;
+    display: flex;
+    justify-content: flex-start;
+    gap: 8px;
+    flex-direction: column;
+    .sec-title {
+      padding-bottom: 5px;
+      font-size: 20px;
+    }
+  }
+
+  .imaWrapper {
+    flex: 200px;
+    width: 197px;
+    height: 189px;
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      object-position: center;
+      border-radius: 16px;
+    }
+  }
+}
+
+@keyframes show {
+  from {
+    top: -100px;
+    opacity: 0.3;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "name": "maha-ssr",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.5.1",
+    "@wojtekmaj/react-daterange-picker": "^6.0.0",
+    "aws-sdk": "^2.1692.0",
+    "axios": "^1.7.9",
+    "axios-cache-interceptor": "^1.6.2",
+    "bootstrap": "^5.3.3",
+    "framer-motion": "^12.0.6",
+    "js-base64": "^3.7.7",
+    "moment": "^2.30.1",
+    "next": "^14.2.15",
+    "next-sitemap": "^4.2.3",
+    "nextjs-toploader": "^3.7.15",
+    "react": "^18",
+    "react-bootstrap": "^2.10.9",
+    "react-calendar": "^5.1.0",
+    "react-date-range": "^2.0.1",
+    "react-dom": "^18",
+    "react-form-stepper": "^2.0.3",
+    "react-icons": "^5.4.0",
+    "react-international-phone": "^4.5.0",
+    "react-intersection-observer": "^9.15.1",
+    "react-modal-video": "^2.0.2",
+    "react-rating-stars-component": "^2.2.0",
+    "react-redux": "^9.2.0",
+    "react-share": "^5.1.2",
+    "react-slick": "^0.30.3",
+    "react-spinners": "^0.15.0",
+    "react-toastify": "^11.0.3",
+    "react-whatsapp": "^0.3.0",
+    "redux-persist": "^6.0.0",
+    "sass": "^1.83.4",
+    "slick-carousel": "^1.8.1",
+    "use-debounce": "^10.0.4",
+    "yet-another-react-lightbox": "^3.21.7"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "14.2.15"
+  }
+}

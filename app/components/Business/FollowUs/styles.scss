@@ -1,0 +1,85 @@
+.Followus939 {
+  .wrapper {
+    width: 100%;
+    max-height: 650px;
+    img {
+      height: inherit;
+      width: inherit;
+      border-radius: 24px;
+      object-fit: cover;
+      object-position: center;
+    }
+  }
+  .FollowUsDetails {
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    .title {
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 48px;
+      color: #000;
+      @media (max-width: 580px) {
+        font-size: 30px;
+        line-height: 31px;
+      }
+    }
+
+    .socialBtnWrapper {
+      display: flex;
+      justify-content: space-between;
+      align-items: stretch;
+      flex-wrap: wrap;
+      flex-direction: row;
+      gap: 25px;
+
+      @media (max-width: 580px) {
+        gap: 15px;
+      }
+      a {
+        flex: 40%;
+        text-decoration: none;
+      }
+      button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
+        padding: 29px 42px;
+        border-radius: 8px;
+        background-color: #000;
+        border: 0;
+        outline: 0;
+        color: #fff;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 41.6px;
+        width: 100%;
+        @media (max-width: 580px) {
+          font-size: 24px;
+          padding: 10px 25px;
+        }
+        img {
+          height: auto;
+          width: 42px;
+          @media (max-width: 580px) {
+            width: 35px;
+          }
+        }
+      }
+      .fb {
+        background-color: #1877f2;
+      }
+      .tiktok {
+        background-color: #000;
+      }
+      .insta {
+        background-color: #ff0069;
+      }
+      .youtube {
+        background-color: #ff0000;
+      }
+    }
+  }
+}

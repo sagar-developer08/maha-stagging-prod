@@ -1,0 +1,57 @@
+.giftOfferK312 {
+  min-height: 280px;
+  padding: 30px 0;
+  background-image: url("https://d3gelo9cifr8ed.cloudfront.net/assets/HomePage/GiftBanner.webp");
+  background-position: 50% 60%;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @media (max-width: 580px) {
+    min-height: 360px;
+  }
+
+  .title {
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 48px;
+    @media (max-width: 580px) {
+      font-size: 30px;
+      line-height: 35px;
+    }
+  }
+  p {
+    color: #fff;
+    @media (max-width: 580px) {
+      margin-top: 5px;
+    }
+  }
+
+  .bookNow {
+    background-color: #fff;
+    border-radius: 50px;
+    color: #000;
+    padding: 12px 24px;
+    border: 1px solid #fff;
+    transition: ease-in-out 0.3s;
+    &:hover {
+      transition: ease-in-out 0.3s;
+      background-color: rgba(255, 255, 255, 0.5);
+    }
+  }
+  .whtsappUs {
+    margin-inline-start: 16px;
+    background-color: transparent;
+    border-radius: 50px;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 12px 24px;
+    transition: ease-in-out 0.3s;
+    &:hover {
+      transition: ease-in-out 0.3s;
+      background-color: rgba(255, 255, 255);
+      color: #000;
+    }
+  }
+}

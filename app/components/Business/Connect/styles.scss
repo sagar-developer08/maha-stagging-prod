@@ -1,0 +1,29 @@
+.connect329klL9 {
+  .connectDetails {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    .title {
+      font-weight: 700;
+      font-size: 48px;
+      line-height: 57px;
+      color: #000;
+      @media (max-width: 580px) {
+        font-size: 32px;
+      }
+    }
+  }
+  .wrapper {
+    height: 640px;
+    width: 100%;
+    img {
+      height: 100%;
+      width: 100%;
+      border-radius: 24px;
+      object-fit: cover;
+      object-position: center;
+    }
+  }
+}

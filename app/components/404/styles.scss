@@ -1,0 +1,13 @@
+.Pag404eDiek {
+  margin-top: 120px;
+  .notFound-title {
+    font-size: 180px;
+    font-weight: 700;
+    color: #000;
+    svg {
+      color: var(--themePrimary);
+      font-size: 160px;
+      margin: 0 10px;
+    }
+  }
+}

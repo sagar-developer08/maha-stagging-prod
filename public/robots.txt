@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://mahaballoonadventures.ae
+
+# Sitemaps
+Sitemap: https://mahaballoonadventures.ae/sitemap.xml

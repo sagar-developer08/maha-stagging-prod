@@ -1,0 +1,28 @@
+.fleetOpotion3Card3i21j {
+  margin-inline-end: 40px;
+  @media (max-width: 560px) {
+    margin-inline-end: 10px;
+  }
+  .pr-8 {
+    margin-bottom: 8px;
+  }
+  .imageWrapper {
+    height: 300px;
+    img {
+      height: 100%;
+      width: 100%;
+      border-radius: 16px;
+      object-fit: cover;
+      object-position: center;
+    }
+  }
+  .bds {
+    font-weight: 600;
+  }
+  .pds {
+    padding: 12px 24px;
+  }
+  .mrs {
+    margin-inline-end: 16px;
+  }
+}

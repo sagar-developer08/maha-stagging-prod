@@ -1,0 +1,36 @@
+.FaqsCommon32KI3 {
+  .accordion-header .accordion-button {
+    font-weight: 600;
+    padding-inline-start: 0;
+  }
+  .accordion-flush .accordion-item .accordion-button,
+  .accordion-flush .accordion-item .accordion-button.collapsed {
+    text-align: start;
+  }
+  .accordion-button:not(.collapsed) {
+    background-color: #fff;
+    outline: 0;
+  }
+  .accordion-button:focus {
+    box-shadow: none;
+  }
+  a {
+    text-decoration: none;
+    color: var(--themePrimary);
+  }
+  .btnNl-primary {
+    padding: 5px 10px;
+    font-size: 14px;
+  }
+  .accordion-body {
+    padding: 0 0;
+    padding-bottom: 16px;
+  }
+}
+
+.arB {
+  .accordion-button::after {
+    margin-left: 0;
+    margin-right: auto;
+  }
+}

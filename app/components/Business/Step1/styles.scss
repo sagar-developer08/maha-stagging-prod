@@ -1,0 +1,53 @@
+.Step1DK3 {
+  width: 100%;
+  .StepForm {
+    .title {
+      font-size: 40px;
+      font-weight: 700;
+      line-height: 48px;
+      @media (max-width: 580px) {
+        font-size: 32px;
+      }
+    }
+  }
+  .imgWrapper {
+    width: 100%;
+    max-height: 100%;
+    img {
+      height: inherit;
+      width: inherit;
+      border-radius: 24px;
+      object-fit: cover;
+    }
+  }
+  .form_groupPhone {
+    .react-international-phone-input-container {
+      width: 100%;
+      height: 48px;
+    }
+    .react-international-phone-country-selector {
+      height: 48px;
+      margin-inline-end: 16px;
+      min-width: 72px;
+    }
+    button {
+      height: 100%;
+      width: 100%;
+      border-radius: 8px;
+      background-color: #e9e9e9;
+      outline: 0;
+      border: 0;
+      color: #000;
+    }
+    input {
+      width: 100%;
+      height: 100%;
+      border-radius: 8px;
+      padding: 12px;
+      background-color: #e9e9e9;
+      outline: 0;
+      border: 0;
+      color: #000;
+    }
+  }
+}

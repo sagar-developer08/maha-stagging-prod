@@ -1,0 +1,11 @@
+.ExperiencesAdditionalServices323 {
+  .sliderArrows {
+    text-align: end;
+    @media (max-width: 990px) {
+      text-align: start;
+    }
+    @media (max-width: 580px) {
+      display: none;
+    }
+  }
+}

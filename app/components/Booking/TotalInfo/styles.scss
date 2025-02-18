@@ -1,0 +1,23 @@
+.finalInfo00dk3 {
+  .totalInfo {
+    min-height: 250px;
+    margin-top: 60px;
+  }
+  .infoD {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+  }
+  p {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 18px;
+  }
+
+  .title {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+  }
+}

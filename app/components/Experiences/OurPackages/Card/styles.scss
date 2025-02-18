@@ -1,0 +1,70 @@
+.AboutpkCard32 {
+  // max-width: 400px;
+  padding-bottom: 20px;
+  padding-inline-end: 40px;
+  @media (max-width: 560px) {
+    padding-inline-end: 10px;
+  }
+  .detailsSec {
+    min-height: 280px;
+  }
+  .btnNl-primary-j {
+    background-color: var(--themePrimary);
+    color: var(--themeSecondary);
+    border-radius: 50px;
+    padding: 14px 24px;
+
+    border: 1px solid var(--themePrimary);
+    transition: ease-in-out 0.3s;
+  }
+
+  .btnNl-secondary-j {
+    background-color: transparent;
+    color: #000;
+    border-radius: 50px;
+    padding: 14px 24px;
+
+    border: 1px solid var(--themePrimary);
+    transition: ease-in-out 0.3s;
+  }
+
+  .iconsvg {
+    transition: ease-in-out 0.3s;
+  }
+  .activeCard .iconsvg {
+    transition: ease-in-out 0.3s;
+    transform: rotate(180deg);
+  }
+  .ImgThumb {
+    // max-width: 400px;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    .featured {
+      position: absolute;
+      top: 24px;
+      left: 24px;
+      background-color: #fff;
+      border-radius: 16px;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 21px;
+      z-index: 3;
+      padding: 4px 12px;
+    }
+    img {
+      z-index: 2;
+      position: relative;
+      width: 100%;
+      height: 300px;
+      border-radius: 16px;
+      object-fit: cover;
+    }
+  }
+  .mrs {
+    margin-inline-end: 16px;
+  }
+  .pds {
+    padding: 12px 24px;
+  }
+}

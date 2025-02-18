@@ -1,0 +1,48 @@
+.IntroSLider23e {
+  .sliderArrows {
+    text-align: start;
+  }
+  .timeLIneWrap {
+    padding-right: 10px;
+  }
+  .SteperWrapper93 {
+    direction: ltr;
+    position: relative;
+  }
+  #RFS-StepButton {
+    span {
+      margin-top: -45px !important;
+      //   color: #000;
+      font-size: 20px;
+      font-weight: 700;
+    }
+  }
+
+  .wrapper {
+    height: 480px;
+    width: 100%;
+    @media (max-width: 560px) {
+      height: max-content;
+    }
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      border-radius: 24px;
+    }
+  }
+  .details {
+    height: inherit;
+    .setpNom {
+      color: var(--themePrimary);
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 48px;
+    }
+    .titleSlide {
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 41px;
+    }
+  }
+}

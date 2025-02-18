@@ -1,0 +1,48 @@
+.detailsCOn3939 {
+  .contactIcon {
+    color: var(--themePrimary);
+  }
+  .map {
+    margin-top: 40px;
+    .iFramgeMap {
+      height: 500px;
+      width: 100%;
+      border-radius: 24px;
+    }
+    .imgWrapperMap {
+      height: 500px;
+      width: 100%;
+      img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 24px;
+      }
+    }
+  }
+  .inFOdetails {
+    min-height: 100px;
+  }
+  .details {
+    .name {
+      margin-top: 16px;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 28px;
+    }
+    .info {
+      margin: 8px 0;
+      text-decoration: none;
+      color: #000;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      transition: ease-in-out 0.2s;
+    }
+    a:hover {
+      color: var(--themePrimary);
+      transition: ease-in-out 0.2s;
+    }
+  }
+}

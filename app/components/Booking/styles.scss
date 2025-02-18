@@ -1,0 +1,28 @@
+.BookingMain31 {
+  .FooterBTNS {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .DOts {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 8px;
+      span {
+        border-radius: 100%;
+        display: block;
+        height: 10px;
+        width: 10px;
+        background-color: rgba(122, 179, 66, 40%);
+        cursor: pointer;
+      }
+      span.active {
+        background-color: #7ab342;
+      }
+    }
+    .btns {
+      margin-inline-end: 0;
+    }
+  }
+}

@@ -1,0 +1,71 @@
+.LoginB2Bdk003 {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .formWrapper {
+    width: 65%;
+    margin: auto;
+    @media only screen and (max-width: 560px) {
+      width: 100%;
+    }
+  }
+  .form-title {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 41px;
+  }
+  .form-details {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+  .btnWrapper {
+    display: flex;
+    justify-content: flex-end;
+    gap: 16px;
+    flex-wrap: wrap;
+    @media only screen and (max-width: 560px) {
+      justify-content: flex-start;
+    }
+  }
+  .imgWrapper {
+    height: 100%;
+    width: auto;
+    max-height: 550px;
+    img {
+      height: 100%;
+      width: 100%;
+      border-radius: 24px;
+      object-fit: contain;
+    }
+  }
+
+  .form_group {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 8px;
+    .password {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      width: 100%;
+      span {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        color: rgba(0, 0, 0, 0.6);
+        cursor: pointer;
+      }
+    }
+    label {
+      font-size: 16px;
+      line-height: 24px;
+      font-weight: 400;
+    }
+  }
+}

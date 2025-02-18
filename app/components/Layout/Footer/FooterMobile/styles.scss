@@ -1,0 +1,44 @@
+.mobileFooter {
+  display: none;
+
+  @media (max-width: 560px) {
+    display: block;
+    background-color: #000;
+    color: #fff;
+  }
+  .logoWrapper {
+    height: 60px;
+    margin-bottom: 24px;
+    img {
+      height: 100%;
+      width: auto;
+    }
+  }
+
+  .accordion-button::after {
+    background-image: url(../../../assets/icons/Vector.png);
+  }
+  .accordion-item:first-of-type .accordion-button {
+    border-radius: 0;
+    padding-inline-start: 0;
+  }
+  .accordion-item {
+    outline: none;
+    border: none;
+    border-radius: none;
+    box-shadow: none;
+  }
+  .accordion-header {
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+  }
+  .accordion-button {
+    background-color: #000 !important;
+    box-shadow: none;
+    color: #fff;
+  }
+  .accordion-body {
+    color: #fff;
+    background-color: #000;
+  }
+}

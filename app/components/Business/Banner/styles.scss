@@ -1,0 +1,99 @@
+@import "node_modules/react-modal-video/scss/modal-video.scss";
+.bannerBusiness {
+  width: 100%;
+  min-height: 100vh;
+  @media (max-width: 776px) {
+    min-height: 80vh;
+  }
+  .wrapper {
+    // padding-top: 160px;
+    // padding-bottom: 60px;
+    width: 100%;
+    height: 100%;
+    padding-top: 16%;
+    @media (max-width: 776px) {
+      padding-top: 60px;
+    }
+  }
+  .btnNl-secondary {
+    color: #fff;
+  }
+  .bannerHalfDetails {
+    .main_title {
+      font-size: 40px;
+      font-weight: 700;
+      line-height: 48px;
+      color: #fff;
+      @media (max-width: 776px) {
+        font-size: 36px;
+        line-height: 41px;
+      }
+    }
+    .sub_title {
+      margin-top: 26px;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 33.3px;
+      color: #fff;
+      @media (max-width: 776px) {
+        font-size: 18px;
+        line-height: 31px;
+      }
+    }
+    .btnWrapper {
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+  }
+  .countDown {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+
+    @media (max-width: 776px) {
+      justify-content: center;
+      gap: 10px;
+    }
+    .count {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 16px;
+      @media (max-width: 776px) {
+        gap: 5px;
+      }
+    }
+    .time {
+      font-weight: 700;
+      font-size: 72px;
+      line-height: 86px;
+      color: #fff;
+      @media (max-width: 776px) {
+        font-size: 26px;
+      }
+    }
+    .timeLeft {
+      font-weight: 700;
+      font-size: 72px;
+      line-height: 86px;
+      color: #fff;
+      @media (max-width: 776px) {
+        font-size: 45px;
+      }
+    }
+    .duration {
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 30px;
+      color: #fff;
+      @media (max-width: 776px) {
+        font-size: 12px;
+      }
+    }
+  }
+}

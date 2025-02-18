@@ -1,0 +1,43 @@
+.ourTeamCard32 {
+  margin-inline-end: 40px;
+  @media (max-width: 560px) {
+    margin-inline-end: 0;
+  }
+  .pr-8 {
+    margin-bottom: 8px;
+  }
+  .imageWrapper {
+    height: 395px;
+    img {
+      height: 100%;
+      width: 100%;
+      border-radius: 16px;
+      object-fit: contain;
+      object-position: center;
+    }
+  }
+  .name {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+  }
+  .social {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 14px;
+    flex-wrap: wrap;
+    a {
+      color: #000;
+    }
+  }
+  .bds {
+    font-weight: 600;
+  }
+  .pds {
+    padding: 12px 24px;
+  }
+  .mrs {
+    margin-inline-end: 16px;
+  }
+}

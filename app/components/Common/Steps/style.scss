@@ -1,0 +1,12 @@
+.ProgressStep332 {
+  width: 100%;
+  height: 5px;
+  background-color: #eee;
+  border-radius: 50px;
+  .progressSteper {
+    background-color: var(--themePrimary);
+    height: 100%;
+    transition: ease-in-out;
+    border-radius: 50px;
+  }
+}

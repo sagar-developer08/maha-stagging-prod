@@ -1,0 +1,53 @@
+.experiencesPageTimelin32iki {
+  .sliderArrows {
+    text-align: start;
+  }
+  .timeLIneWrap {
+    padding-right: 10px;
+  }
+  .SteperWrapper93 {
+    direction: ltr;
+    position: relative;
+  }
+  #RFS-StepButton {
+    span {
+      margin-top: -45px !important;
+      //   color: #000;
+      font-size: 20px;
+      font-weight: 700;
+    }
+  }
+
+  .wrapper {
+    height: 500px;
+    width: 100%;
+    max-width: 500px;
+    @media (max-width: 580px) {
+      height: 280px;
+    }
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      border-radius: 24px;
+    }
+  }
+  .details {
+    height: inherit;
+    .setpNom {
+      color: var(--themePrimary);
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 48px;
+    }
+    .titleSlide {
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 41px;
+      @media (max-width: 580px) {
+        font-size: 26px;
+        line-height: 31px;
+      }
+    }
+  }
+}

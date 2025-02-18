@@ -1,0 +1,35 @@
+.PackageDetails303232 {
+  position: relative;
+  margin-top: 40px;
+  animation-name: show;
+  animation-duration: 0.3s;
+  animation-timing-function: ease-in-out;
+  .pd43 {
+    padding: 12px 24px;
+  }
+  .bokNow {
+    margin-inline-end: 16px;
+  }
+  .wrapper {
+    height: 640px;
+    max-width: 610px;
+    width: 100%;
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      border-radius: 24px;
+    }
+  }
+}
+
+@keyframes show {
+  from {
+    top: -200px;
+    opacity: 0.3;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}

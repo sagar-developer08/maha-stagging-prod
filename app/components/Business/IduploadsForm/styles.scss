@@ -1,0 +1,30 @@
+.IdUploadForm390L {
+  .termsGroup {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+
+    input {
+      height: 18px;
+      width: 18px;
+    }
+  }
+  .ImgUploadSec {
+    img {
+      height: 150px;
+      width: 100%;
+    }
+  }
+  .FileUPloadWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    border: 1px solid var(--themePrimary);
+    border-radius: 8px;
+    input {
+      display: none;
+    }
+  }
+}

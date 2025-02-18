@@ -1,0 +1,141 @@
+.productDetailsk39dsk {
+  .nav-tabs {
+    border: none;
+  }
+  .nav-tabs .nav-item.show .nav-link,
+  .nav-tabs .nav-link.active {
+    border-color: transparent;
+
+    border-bottom: 2px solid var(--themePrimary);
+    color: #000;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 33px;
+  }
+
+  .nav-tabs .nav-item.show .nav-link,
+  .nav-tabs .nav-link {
+    color: #999999;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 33px;
+  }
+  .MoreDetails {
+    margin-top: 24px;
+  }
+  .breadCrumb32 {
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    .BreakIcon {
+      margin-inline-start: 8px;
+      margin-inline-end: 4px;
+    }
+    .breadItem {
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 21px;
+    }
+    .active {
+      font-weight: 600;
+    }
+  }
+
+  .detailsProduct {
+    .name {
+      font-size: 40px;
+      font-weight: 700;
+      line-height: 48px;
+    }
+    .price {
+      font-size: 24px;
+      font-weight: 600;
+      line-height: 33px;
+    }
+    .reviews {
+      display: flex;
+      justify-content: flex-start;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 5px;
+      margin: 24px 0;
+    }
+    .reviewInfo {
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 21px;
+    }
+
+    .details {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+    }
+
+    .category {
+      margin-top: 24px;
+      .category-name {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        margin-bottom: 8px;
+      }
+      .category-type {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 16px;
+      }
+    }
+  }
+
+  .btnNl-cate-pri {
+    background-color: var(--themePrimary);
+    color: var(--themeSecondary);
+    border-radius: 50px;
+    border: 1px solid var(--themePrimary);
+    transition: ease-in-out 0.3s;
+  }
+  .btnNl-cate-sec {
+    background-color: transparent;
+    color: #000;
+    border-radius: 50px;
+    border: 1px solid var(--themePrimary);
+    transition: ease-in-out 0.3s;
+  }
+  .quantatity {
+    margin: 24px 0;
+    .qty {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      margin-bottom: 8px;
+    }
+
+    .QtyWrapper {
+      border: 1px solid #000;
+      border-radius: 8px;
+      padding: 8px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      flex-direction: row;
+      gap: 10px;
+      width: max-content;
+    }
+  }
+  .tagShipText {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+  }
+
+  .pdkd {
+    padding: 8px 28px;
+  }
+  .pdDdsd {
+    padding: 12px 20px;
+  }
+}

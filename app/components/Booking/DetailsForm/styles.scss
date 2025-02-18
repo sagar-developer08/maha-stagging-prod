@@ -1,0 +1,85 @@
+.ContactFormDSds003j {
+  .form_groupPhone {
+    .react-international-phone-input-container {
+      width: 100%;
+      height: 48px;
+    }
+    .react-international-phone-country-selector {
+      height: 48px;
+      margin-inline-end: 16px;
+      min-width: 72px;
+    }
+    button {
+      height: 100%;
+      width: 100%;
+      border-radius: 8px;
+      background-color: #e9e9e9;
+      outline: 0;
+      border: 0;
+      color: #000;
+    }
+    input {
+      width: 100%;
+      height: 100%;
+      border-radius: 8px;
+      padding: 12px;
+      background-color: #e9e9e9;
+      outline: 0;
+      border: 0;
+      color: #000;
+    }
+  }
+  .colHalf {
+    border-inline-end: 2px solid rgba(0, 0, 0, 16%);
+  }
+  .step2Size {
+    min-height: 350px;
+  }
+
+  .flightCard {
+    padding: 16px;
+    border-radius: 16px;
+    background-color: #7ab3423d;
+  }
+  .details {
+    .title {
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 24px;
+    }
+  }
+  select:has(option[value=""]:checked) {
+    color: gray !important;
+  }
+  .input-group {
+    span {
+      background-color: #e9e9e9;
+    }
+  }
+  .weightOptionsWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 16px;
+    flex-wrap: wrap;
+    width: 100%;
+    @media (max-width: 580px) {
+      gap: 10px;
+    }
+  }
+  .WeightOption {
+    flex: 1;
+    padding: 15px 12px;
+    border-radius: 8px;
+    border: 1px solid var(--themePrimary);
+    background-color: transparent;
+    font-size: 16px;
+    @media (max-width: 580px) {
+      flex: 45%;
+    }
+  }
+  .WeightOption.active {
+    background-color: var(--themePrimary);
+    color: #fff;
+  }
+}

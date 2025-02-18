@@ -1,0 +1,105 @@
+@import "node_modules/react-modal-video/scss/modal-video.scss";
+
+.TestimonialHOmepage23 {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  .sliderArrows {
+    text-align: end;
+
+    @media (max-width: 990px) {
+      text-align: end;
+    }
+    @media (max-width: 580px) {
+      display: none;
+    }
+  }
+  .sliderMobile {
+    @media (max-width: 580px) {
+      padding-inline-end: 15px;
+      display: block;
+      .slider_custom_arrows {
+        padding: 0.8rem 0.8rem;
+      }
+    }
+  }
+  .arrowslic22dernext {
+    @media (min-width: 581px) {
+      right: 0;
+    }
+    @media (max-width: 580px) {
+      top: 5%;
+    }
+  }
+  .arrowslic22derprev {
+    @media (max-width: 580px) {
+      top: 5%;
+    }
+  }
+
+  .dots {
+    display: none;
+    @media (max-width: 580px) {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 8px;
+    }
+  }
+  .dot {
+    height: 10px;
+    cursor: pointer;
+    width: 10px;
+    background-color: #ccc;
+    border-radius: 100%;
+  }
+  .active {
+    background-color: #000;
+  }
+
+  .cst_hidden {
+    display: none;
+  }
+  .cst_modal {
+    position: fixed;
+    height: 100vh;
+    width: 60%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #000;
+    z-index: 5555555;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    animation: hiehtMoveup 0.5s;
+    @media (max-width: 580px) {
+      width: 100%;
+    }
+    .closeIcon_wrapper {
+      position: absolute;
+      right: 20px;
+      top: 10px;
+      cursor: pointer;
+      z-index: 55555555;
+      @media (max-width: 580px) {
+        right: 10px;
+        top: 5px;
+      }
+      .closeIcon {
+        color: tomato;
+        cursor: pointer;
+      }
+    }
+    video {
+      height: 98vh;
+      width: auto;
+      margin: auto;
+
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+}

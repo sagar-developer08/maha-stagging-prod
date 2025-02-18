@@ -1,0 +1,15 @@
+.ourFleet32903X9 {
+  .sliderArrows {
+    text-align: end;
+    margin-inline-end: 40px;
+    @media (max-width: 560px) {
+      margin-inline-end: 0;
+    }
+    @media (max-width: 990px) {
+      text-align: start;
+    }
+    @media (max-width: 580px) {
+      display: none;
+    }
+  }
+}
