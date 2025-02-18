@@ -43,6 +43,10 @@ const testimonial19 =
   "https://d3gelo9cifr8ed.cloudfront.net/assets/New/Homepage/russian+man+.jpg";
   const testimonial20 =
   "https://d3gelo9cifr8ed.cloudfront.net/assets/New/Homepage/chinies_.png";
+  const testimonial21 =
+  "https://d3gelo9cifr8ed.cloudfront.net/assets/New/Homepage/IMG_3897.PNG";
+const testimonial22 =
+  "https://d3gelo9cifr8ed.cloudfront.net/assets/New/Homepage/IMG_3898.PNG";
 
 // import ModalVideo from "react-modal-video";
 import { IoIosCloseCircle } from "react-icons/io";
@@ -202,6 +206,18 @@ const Index = () => {
       col_lg: 4,
       language: "chinese",
       videoUrl: "https://d3gelo9cifr8ed.cloudfront.net/Chinese+Male+1.mp4",
+    },
+    {
+      thumb: testimonial21,
+      col_lg: 4,
+      language: "chinese",
+      videoUrl: "https://d3gelo9cifr8ed.cloudfront.net/Chinese+Female+1.mp4",
+    },
+    {
+      thumb: testimonial22,
+      col_lg: 4,
+      language: "chinese",
+      videoUrl: "https://d3gelo9cifr8ed.cloudfront.net/Chinese+Female+2.mp4",
     },
   ];
 
